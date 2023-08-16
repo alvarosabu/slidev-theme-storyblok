@@ -1,0 +1,48 @@
+{
+  "name": "slidev-theme-storyblok",
+  "version": "0.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "author": "Alvaro Saburido <alvaro.saburido@storyblok.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.42.5",
+    "@storyblok/design-system": "^3.13.0",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "sass": "^1.64.1",
+    "theme-vitesse": "^0.7.2"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.33",
+    "@release-it/conventional-changelog": "^7.0.0",
+    "@slidev/cli": "^0.42.5",
+    "playwright-chromium": "^1.37.0",
+    "release-it": "^16.1.5"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Roboto",
+        "mono": "Fira Code"
+      },
+      "hightlighter": "shiki"
+    }
+  }
+}
