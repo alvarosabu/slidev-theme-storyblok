@@ -10,7 +10,7 @@
   @apply font-sans text-gray-500;
 
   h1 {
-    @apply text-5xl leading-10 font-bold text-secondary mb-16;
+    @apply text-5xl leading-10 font-bold important-text-secondary mb-16;
   }
 }
 
@@ -48,4 +48,14 @@
   h2 {
     @apply text-white font-italic
   }
+}
+
+.slidev-layout.bg-half {
+  background: linear-gradient(
+      to right, 
+      #F6F8F9 0%, 
+      #F6F8F9 50%, 
+      #ffffff 50%, 
+      #ffffff 100%
+    );
 }

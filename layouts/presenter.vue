@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-console.log('presenter.vue', $slidev.configs.themeConfig.presenter)
-
 const style = computed(() => {
   return {
     backgroundImage: `url(${$slidev.configs.themeConfig.presenterAvatar || 'https://a.storyblok.com/f/172000/1000x1170/f92915eac0/astronaut.jpg/m/1000x1250'})`,

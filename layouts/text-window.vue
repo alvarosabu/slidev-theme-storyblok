@@ -1,7 +1,8 @@
 <template>
     <div class="slidev-layout">
+      <SbLogo class="w-200px -ml-8 mb-16"/>
       <div class="grid grid-cols-2" :class="$attrs.reverse ? 'gap-16' : 'gap-8'">
-        <div class="pr-16" :class="{ 'order-1': $attrs.reverse }">
+        <div class="prose pr-16" :class="{ 'order-1': $attrs.reverse }">
           <slot name="default" />
         </div>
         <div class="relative">

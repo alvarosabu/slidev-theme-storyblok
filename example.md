@@ -113,3 +113,23 @@ export default defineNuxtConfig({
   }
 });
 ```
+
+---
+layout: two-cols
+---
+
+# Two Columns
+
+This is how two cols work
+
+::right::
+
+```html
+<template>
+  <div class="flex flex-col items-center justify-center h-screen">
+    <h1 class="text-6xl font-bold">
+      Hello, Slidev!
+    </h1>
+  </div>
+</template>
+```
