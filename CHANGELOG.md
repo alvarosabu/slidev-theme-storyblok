@@ -1,5 +1,12 @@
 
 
+## [0.2.0](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.1.0...0.2.0) (2023-08-24)
+
+
+### Features
+
+* add storyblok branded default layout ([4d76a9a](https://github.com/alvarosabu/slidev-theme-storyblok/commit/4d76a9af199670706e3203dd2e4346d75774f38d))
+
 ## [0.1.0](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.0.1...0.1.0) (2023-08-24)
 
 
