@@ -69,7 +69,7 @@ image: 'https://a.storyblok.com/f/172000/1000x1170/f92915eac0/astronaut.jpg/m/10
 
 # Code
 
-Use code snippets and get the highlighting directly!
+Use code snippets and get the `highlighting` directly!
 
 ```html
 <script setup lang="ts">

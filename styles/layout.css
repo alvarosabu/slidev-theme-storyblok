@@ -12,6 +12,10 @@
   h1 {
     @apply text-5xl leading-10 font-bold important-text-secondary mb-16;
   }
+
+  p {
+    @apply leading-10
+  }
 }
 
 .slidev-layout a {

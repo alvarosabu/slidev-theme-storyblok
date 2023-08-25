@@ -2,19 +2,25 @@ pre[class*='language-'] {
   @apply p-2;
 }
 
-:not(pre) > code {
+.prose :not(pre) > code {
   font-size: 0.9em;
   background: #1B243F;
-  @apply font-light py-0.5 rounded;
+  color: #00B3B0;
+  @apply py-0.5 rounded;
 }
 
 
-:not(pre) > code:before,
-:not(pre) > code:after {
-  content: '`';
+.prose :not(pre) > code:before,
+.prose :not(pre) > code:after {
+  content: ' ';
+  padding: 0 0.1em;
   opacity: 0.50;
 }
 
 :not(pre) > code:before {
   margin-right: -0.08em;
+}
+
+.shiki-container {
+  @apply important-p-0;
 }
