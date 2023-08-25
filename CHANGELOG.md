@@ -1,5 +1,12 @@
 
 
+## [0.2.1](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.2.0...0.2.1) (2023-08-25)
+
+
+### Bug Fixes
+
+* line-height and inline-code ([b981872](https://github.com/alvarosabu/slidev-theme-storyblok/commit/b9818726ab496957519be10e18f716f8ed73865f))
+
 ## [0.2.0](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.1.0...0.2.0) (2023-08-24)
 
 
