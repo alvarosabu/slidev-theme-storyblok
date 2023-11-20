@@ -21,6 +21,10 @@ A [Storyblok](https://www.storyblok.com/) theme for [Slidev](https://github.com/
 
 ## Install
 
+```bash
+npm i slidev-theme-storyblok
+```
+
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
