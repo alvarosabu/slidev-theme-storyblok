@@ -1,5 +1,12 @@
 
 
+## [0.3.0](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.2.1...0.3.0) (2023-11-20)
+
+
+### Features
+
+* updated layouts and readme ([d61220e](https://github.com/alvarosabu/slidev-theme-storyblok/commit/d61220e1ebc37744b9801f7946e890b21e22aff2))
+
 ## [0.2.1](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.2.0...0.2.1) (2023-08-25)
 
 
