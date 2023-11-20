@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.3.0...0.3.1) (2023-11-20)
+
+
+### Bug Fixes
+
+* end layout css ([0e44dd8](https://github.com/alvarosabu/slidev-theme-storyblok/commit/0e44dd842c06b8d040446c41ac899efc2ef59cb2))
+
 ## [0.3.0](https://github.com/alvarosabu/slidev-theme-storyblok/compare/0.2.1...0.3.0) (2023-11-20)
 
 
