@@ -29,17 +29,179 @@ theme: <b>storyblok</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
+## ThemeConfig
+
+```
+---
+themeConfig:
+  presenter: 'Alvaro Saburido'
+  presenterTitle: 'DevRel Engineer'
+  presenterAvatar: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1690529819/avatar_storyblok.png'
+  presenterEmail: 'alvaro.saburido@storyblok.com'
+---
+```
+
 ## Layouts
 
 This theme provides the following layouts:
 
-> TODO:
+### Intro `intro`
 
-## Components
+Usage:
 
-This theme provides the following components:
+- Add `intro` in the layout field.
 
-> TODO:
+```
+---
+layout: intro
+---
+```
+
+![Layout-intro](example-export/001.png)
+
+### Cover `cover`
+
+Cover is the default layout when none is specified.
+
+
+Usage:
+
+- Add `cover` in the layout field.
+
+```
+---
+layout: cover
+---
+```
+
+![Layout-cover](example-export/002.png)
+
+### Presenter `presenter`
+
+Usage:
+
+- Add `presenter` in the layout field.
+
+```
+---
+layout: presenter
+---
+```
+
+![Layout-presenter](example-export/003.png)
+
+### Image Right `image-right`
+
+Shows an image on the right side of the screen, the content will be placed on the left side.
+
+Usage:
+
+```md
+---
+layout: image-right
+
+# the image source
+image: ./path/to/the/image
+
+---
+```
+
+
+![Layout-image-right](example-export/007.png)
+
+### Image left `image-left`
+
+Shows an image on the left side of the screen, the content will be placed on the right side.
+
+Usage:
+
+```md
+---
+layout: image-left
+
+# the image source
+image: ./path/to/the/image
+
+---
+```
+
+![Layout-image-left](example-export/008.png)
+
+### New Section `section`
+
+Usage:
+
+- Add `section` in the layout field.
+
+```
+---
+layout: section
+---
+```
+![Layout-section](example-export/009.png)
+
+### Text Window `text-window`
+
+Usage:
+
+- Add `text-window` in the layout field.
+
+```
+---
+layout: text-window
+---
+
+# Consoles
+
+Use code snippets and get the highlighting directly into a nice looking window!
+
+::window::
+
+```ts
+// main.ts
+
+import { defineNuxtConfig } from "nuxt";
+
+export default defineNuxtConfig({
+  modules: ["@storyblok/nuxt"],
+  storyblok: {
+    accessToken: "<your-access-token>"
+  }
+});
+
+```
+
+![Layout-section](example-export/010.png)
+
+### Two Columns `two-cols`
+Separates the page content in two columns.
+
+Usage:
+
+```md
+---
+layout: two-cols
+---
+
+# Left
+
+This shows on the left
+
+::right::
+
+# Right
+
+This shows on the right
+
+```
+
+![Layout-two-cols](example-export/011.png)
+
+
+## TODO
+
+- [ ] Add more layouts (iframe)
+- [ ] Better shiki theme
 
 ## Contributing
 

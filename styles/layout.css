@@ -41,7 +41,7 @@
   }
 }
 
-.slidev-layout.section {
+.slidev-layout.section, slidev-layout.end {
   @apply h-full grid;
   background-color: var(--slidev-theme-secondary);
 

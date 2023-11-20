@@ -1,6 +1,7 @@
 ---
 theme: ./
 highlighter: shiki
+layout: intro
 themeConfig:
   presenter: 'Alvaro Saburido'
   presenterTitle: 'DevRel Engineer'
@@ -12,6 +13,13 @@ themeConfig:
 
 Presentation slides for DevRels
 
+---
+layout: cover
+---
+
+# Storyblok Slidev Cover
+
+Presentation slides for DevRels
 
 ---
 layout: presenter
@@ -29,6 +37,7 @@ Content Creator
 </div>
 
 ---
+
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
@@ -41,8 +50,6 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
-<br>
-<br>
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
@@ -63,9 +70,6 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | next slide |
 
 ---
-layout: image-right
-image: 'https://a.storyblok.com/f/172000/1000x1170/f92915eac0/astronaut.jpg/m/1000x1250'
----
 
 # Code
 
@@ -85,6 +89,48 @@ const story = await useAsyncStoryblok(
 ```
 
 ---
+layout: image-right
+image: https://a.storyblok.com/f/172000/1000x1170/f92915eac0/astronaut.jpg/m/1000x1250
+---
+
+## Image Right
+
+Shows an image on the right side of the screen, the content will be placed on the left side.
+
+### Usage
+
+```md
+---
+layout: image-right
+
+# the image source
+image: ./path/to/the/image
+
+---
+```
+
+---
+layout: image-left
+image: https://a.storyblok.com/f/172000/1000x1170/f92915eac0/astronaut.jpg/m/1000x1250
+---
+
+## Image Left
+
+Shows an image on the left side of the screen, the content will be placed on the right side.
+
+### Usage
+
+```md
+---
+layout: image-left
+
+# the image source
+image: ./path/to/the/image
+
+---
+```
+
+---
 layout: section
 ---
 
@@ -95,7 +141,7 @@ layout: section
 layout: text-window
 ---
 
-# Consoles
+# Consoles `text-window`
 
 Use code snippets and get the highlighting directly into a nice looking window!
 
@@ -133,3 +179,9 @@ This is how two cols work
   </div>
 </template>
 ```
+
+---
+layout: end
+---
+
+# Thank you!

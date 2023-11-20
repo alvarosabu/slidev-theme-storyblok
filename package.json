@@ -19,19 +19,19 @@
     "release": "release-it"
   },
   "dependencies": {
-    "@slidev/types": "^0.43.7",
-    "@storyblok/design-system": "^3.17.0",
+    "@slidev/types": "^0.44.0",
+    "@storyblok/design-system": "^3.19.3",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4",
-    "sass": "^1.69.3",
+    "sass": "^1.69.5",
     "theme-vitesse": "^0.7.3"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.37",
-    "@release-it/conventional-changelog": "^7.0.2",
-    "@slidev/cli": "^0.43.7",
-    "playwright-chromium": "^1.39.0",
-    "release-it": "^16.2.1"
+    "@iconify-json/logos": "^1.1.38",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@slidev/cli": "^0.44.0",
+    "playwright-chromium": "^1.40.0",
+    "release-it": "^17.0.0"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
